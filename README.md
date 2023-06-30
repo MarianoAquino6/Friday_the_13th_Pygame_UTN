@@ -7,7 +7,7 @@
 ## MAIN MENU:
 ![Main Menu](./img/1.png)
 
-Main menu displays 4 buttons:
+Main menu displays 4 buttons:  
 -Start Game  
 -Controls  
 -About  
