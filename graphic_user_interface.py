@@ -69,6 +69,7 @@ def offer_user_input():
                 sys.exit()
             if event.type == pygame_gui.UI_TEXT_ENTRY_FINISHED and event.ui_object_id == "#main_text_entry":
                 player_name_high_score = str(event.text)
+                print(player_name_high_score)
                 show_next_level(1, player_name_high_score)
 
             MANAGER.process_events(event)

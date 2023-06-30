@@ -149,7 +149,7 @@ def level_3(player_name, score):
                     
                     if time_since_death >= 3000:
                         save_highscore_in_csv(score=jason_voorhees.score, name=player_name)
-                        save_score_in_database("mariann", jason_voorhees.score)
+                        save_score_in_database(player_name, jason_voorhees.score)
                         highest_score = get_highest_score()
                         graphic_user_interface.show_ending_screen(jason_voorhees.score, highest_score)
             
