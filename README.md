@@ -8,10 +8,10 @@
 ![Main Menu](./img/1.png)
 
 Main menu displays 4 buttons:
--Start Game
--Controls
--About
--Score Ranking
+-Start Game  
+-Controls  
+-About  
+-Score Ranking  
 
 ### CONTROLS:
  It shows the controls you gonna be using for the game
@@ -72,11 +72,11 @@ It shows the highest score in the game and also your score.
 ![Ending](./img/15.png)
 
 ## MUSIC CREDITS:
--Main Menu: Altar of sacrifice - Slayer
--First level: The dark eternal night - Dream Theater
--First level boss: Culinary Hyperversity - Necrophagist
--Second level: The ancient covenant - The faceless
--Second level boss: An autopsy - The faceless
--Third level: Pale blue dot - Dream Theater
--Third level boss: Fermented offal discharge - Necrophagist
--Ending: Going the distance - Bill Conti
+-Main Menu: Altar of sacrifice - Slayer  
+-First level: The dark eternal night - Dream Theater  
+-First level boss: Culinary Hyperversity - Necrophagist  
+-Second level: The ancient covenant - The faceless  
+-Second level boss: An autopsy - The faceless  
+-Third level: Pale blue dot - Dream Theater  
+-Third level boss: Fermented offal discharge - Necrophagist  
+-Ending: Going the distance - Bill Conti  
