@@ -1,7 +1,7 @@
 # PYGAME PROJECT: PROGRAMACION I (UTN) "FRIDAY THE 13th"
 ![Main Menu](./img/1.png)
 
-## Alumn:
+## Author:
 -Mariano Nicolas Aquino
 
 ## MAIN MENU:
