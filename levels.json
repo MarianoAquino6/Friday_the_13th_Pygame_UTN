@@ -1,0 +1,407 @@
+{
+    "level_1": 
+    {
+        "level" : 1,
+        "fps" : 4000,
+        "music": {"boss" : false},
+        "background_image" : {"image_amount": 7},
+        "jason_voorhees" : 
+        {
+            "starting_x" : 20, 
+            "starting_y" : 300, 
+            "movement_amount" : 2, 
+            "movements_speed" : 6, 
+            "animation_speed" : 50, 
+            "jump_power" : 30, 
+            "jump_height" : 300
+        },
+        "platforms":
+        {
+            "lava_or_spikes" : 
+            {
+                "amount" : 3,
+                "folder" : "LEVEL 1",
+                "mode" : ["LAVA", "LAVA", "SPIKES"],
+                "starting_x" : [1400, 2600, 4300],
+                "starting_y" : [620, 620, 640],
+                "width" : [5, 11, 13]
+            },
+            "tower" :
+            {
+                "amount" : 5,
+                "folder" : "LEVEL 1",
+                "starting_x" : [900, 1800, 2400, 3600, 5500],
+                "starting_y" : [700, 700, 700, 700, 800],
+                "width" : [4, 4, 1, 6, 1],
+                "height" : [3, 3, 2, 2, 4]
+            },
+            "floating_platform" :
+            {
+                "amount" : 7,
+                "folder" : "LEVEL 1",
+                "starting_x" : [50, 500, 2700, 3200, 4000, 4900, 5200],
+                "starting_y" : [200, 200, 500, 170, 170, 500, 500],
+                "small" : [false, true, false, true, true, true, true],
+                "moving" : [false, false, true, false, false, true, true],
+                "movement_speed" : [0, 0, 5, 0, 0, 3, 3]
+            }
+        },
+        "items":
+        {
+            "beer" :
+            {
+                "amount" : 1,
+                "folder" : "LEVEL 1",
+                "x" : 120,
+                "y" : 150
+            },
+            "coin" :
+            {
+                "amount" : 13,
+                "path" : "LEVEL 1/RUBY",
+                "x" : [60, 280, 1000, 1650, 2000, 3000, 3400, 3700, 4600, 4800, 5000, 5200, 5400],
+                "y" : [70, 70, 200, 200, 100, 50, 300, 150, 150, 150, 150, 150, 150]
+            },
+            "lightning" :
+            {
+                "amount" : 4,
+                "x" : [1200, 2100, 2100, 3800],
+                "y" : [-300, -300, -300, -200]
+            },
+            "spinning_saw" :
+            {
+                "folder" : "LEVEL 1/SPINNING SAW",
+                "amount" : 2,
+                "x" : [1900, 2400],
+                "y" : [320, 420]
+            },
+            "turret" :
+            {
+                "amount" : 2,
+                "x" : [3195, 3995],
+                "y" : [80, 80]
+            }
+        },
+        "enemies":
+        {
+            "chopper":
+            {
+                "amount" : 2,
+                "starting_x" : [2500, 4200],
+                "starting_y" : [0, 0],
+                "movement_amount" : [1, 1]
+            },
+            "cop":
+            {
+                "amount" : 2,
+                "starting_x" : [1000, 2200],
+                "starting_y" : [260, 260],
+                "movement_amount" : [9, 9],
+                "movements_speed" : [70, 70],
+                "animation_speed" : [100, 100],
+                "boss" : [false, false],
+                "subfolder" : ["COP", "COP"]
+            },
+            "stink":
+            {
+                "amount" : 6,
+                "starting_x" : [6300, 6300, 6500, 6400, 6250, 6250],
+                "starting_y" : [500, 500, 500, 500, 500, 500],
+                "movement_amount" : [11, 11, 10, 13, 15, 6],
+                "movements_speed" : [70, 50, 60, 80, 80, 100],
+                "animation_speed" : [100, 100, 100, 100, 100, 100]
+            }
+        },
+        "final_battle" :
+        {
+            "jason_voorhees":
+            {
+                "movement_amount" : 6,
+                "movements_speed" : 3,
+                "life" : 500
+            },
+            "boss":
+            {
+                "starting_x" : 100,
+                "starting_y" : 465,
+                "movement_amount" : 9,
+                "movements_speed" : 70,
+                "animation_speed" : 200,
+                "boss" : true,
+                "subfolder" : "FIRST_BOSS"
+            }
+        },
+        "other":
+        {
+            "invisible_rects":
+            {
+                "amount": 8,
+                "x_coordinates" : [900, 1500, 2100, 2400, 3600, 4400, 5800, 6800]
+            },
+            "bullet":
+            {
+                "folder" : "LEVEL 1"
+            }
+        }
+    },
+    "level_2": 
+    {
+        "level" : 2,
+        "fps" : 80,
+        "music": {"boss" : false},
+        "background_image" : {"image_amount": 3},
+        "jason_voorhees" : 
+        {
+            "starting_x" : 20, 
+            "starting_y" : 300, 
+            "movement_amount" : 2, 
+            "movements_speed" : 6, 
+            "animation_speed" : 50, 
+            "jump_power" : 30, 
+            "jump_height" : 300
+        },
+        "platforms":
+        {
+            "lava_or_spikes" : 
+            {
+                "amount" : 2,
+                "folder" : "LEVEL 2",
+                "mode" : ["LAVA", "LAVA"],
+                "starting_x" : [1200, 4400],
+                "starting_y" : [620, 620],
+                "width" : [15, 12]
+            },
+            "tower" :
+            {
+                "amount" : 9,
+                "folder" : "LEVEL 2",
+                "starting_x" : [700, 900, 2600, 3800, 3900, 4000, 4100, 4200, 5600],
+                "starting_y" : [700, 700, 700, 700, 700, 700, 700, 700, 700],
+                "width" : [1, 2, 1, 1, 1, 1, 1, 1, 2],
+                "height" : [2, 3, 2, 1, 2, 3, 4, 5, 3]
+            },
+            "floating_platform" :
+            {
+                "amount" : 6,
+                "folder" : "LEVEL 2",
+                "starting_x" : [1500, 1900, 2100, 2300, 2600, 4600],
+                "starting_y" : [500 ,400, 300, 200, 200, 500],
+                "small" : [false, true, true, true, false, false],
+                "moving" : [true, false, false, false, false, true],
+                "movement_speed" : [3, 0, 0, 0, 0, 4]
+            }
+        },
+        "items":
+        {
+            "beer" :
+            {
+                "amount" : 1,
+                "folder" : "LEVEL 2",
+                "x" : 4300,
+                "y" : 150
+            },
+            "coin" :
+            {
+                "amount" : 14,
+                "path" : "LEVEL 2/MOONSTONE",
+                "x" : [200, 400, 800, 1500, 1800, 2500, 3200, 3900, 3400, 3600, 3800, 4600, 4900, 5200],
+                "y" : [100, 200, 100, 350, 250, 400, 100, 100, 50, 20, 50, 150, 150, 150]
+            },
+            "orb" :
+            {
+                "folder" : "LEVEL 2/ORBS",
+                "amount" : 5,
+                "x" : [1500, 3100, 4600, 5000, 5400],
+                "y" : [100, 300, 400, 400, 400]
+            },
+            "button" :
+            {
+                "amount" : 1,
+                "x" : 2700,
+                "y" : 70
+            },
+            "force_field":
+            {
+                "amount" : 1,
+                "x" : 3400,
+                "y" : 0
+            }
+        },
+        "enemies":
+        {
+            "drone":
+            {
+                "amount" : 3,
+                "starting_x" : [4800, 5100, 5400],
+                "starting_y" : [200, 200, 200],
+                "movement_amount" : [1, 1, 1],
+                "animation_speed" : [100, 100, 100]
+            },
+            "alien":
+            {
+                "amount" : 4,
+                "starting_x" : [1000, 2700, 3000, 3500],
+                "starting_y" : [260, 355, 510, 510],
+                "movement_amount" : [9, 9, 9, 9],
+                "movements_speed" : [70, 70, 70, 70],
+                "animation_speed" : [100, 100, 100, 100],
+                "boss" : [false, false, false, false],
+                "subfolder" : ["ALIEN", "ALIEN", "ALIEN", "ALIEN"]
+            }
+        },
+        "final_battle" :
+        {
+            "jason_voorhees":
+            {
+                "movement_amount" : 1,
+                "movements_speed" : 0,
+                "life" : 500
+            },
+            "boss":
+            {
+                "starting_x" : 100,
+                "starting_y" : 465,
+                "movement_amount" : 9,
+                "movements_speed" : 70,
+                "animation_speed" : 200,
+                "subfolder" : "SECOND_BOSS"
+            }
+        },
+        "other":
+        {
+            "invisible_rects":
+            {
+                "amount":7,
+                "x_coordinates" : [900, 1300, 2600, 2900, 3400, 3800, 6000]
+            },
+            "bullet":
+            {
+                "folder" : "LEVEL 2"
+            }
+        }
+    },
+    "level_3": 
+    {
+        "level" : 3,
+        "fps" : 80,
+        "music": {"boss" : false},
+        "background_image" : {"image_amount": 5},
+        "jason_voorhees" : 
+        {
+            "starting_x" : 20, 
+            "starting_y" : 300, 
+            "movement_amount" : 2, 
+            "movements_speed" : 6, 
+            "animation_speed" : 50, 
+            "jump_power" : 30, 
+            "jump_height" : 300
+        },
+        "platforms":
+        {
+            "street" : 
+            {
+                "amount" : 2,
+                "folder" : "LEVEL 3",
+                "mode" : ["STREET", "STREET"],
+                "starting_x" : [1300, 4600],
+                "starting_y" : [645, 645],
+                "width" : [15, 12]
+            },
+            "tower" :
+            {
+                "amount" : 3,
+                "folder" : "LEVEL 3",
+                "starting_x" : [600, 3100, 4200],
+                "starting_y" : [700, 700, 700],
+                "width" : [1, 1, 2],
+                "height" : [5, 4, 4]
+            },
+            "floating_platform" :
+            {
+                "amount" : 6,
+                "folder" : "LEVEL 3",
+                "starting_x" : [400, 100, 400, 2000, 2600, 3500],
+                "starting_y" : [500 ,400, 200, 200, 350, 400],
+                "small" : [true, true, true, false, false, false],
+                "moving" : [true, false, false, false, false, true],
+                "movement_speed" : [0, 0, 0, 0, 0, 6]
+            }
+        },
+        "items":
+        {
+            "beer" :
+            {
+                "amount" : 1,
+                "folder" : "LEVEL 3",
+                "x" : 2000,
+                "y" : 150
+            },
+            "coin" :
+            {
+                "amount" : 20,
+                "path" : "LEVEL 3/SAPPHIRE",
+                "x" : [200, 800, 1000, 1500, 1600, 1700, 1800, 1900, 3500, 3700, 3900, 4100, 4800, 5000, 5100, 5200, 5400, 5600, 5800, 6000],
+                "y" : [100, 100, 300, 400, 400, 400, 400, 400, 200, 300, 200, 300, 100, 500, 400, 200, 300, 300, 450, 550]
+            },
+            "traffic_light" : 
+            {
+                "amount" : 2,
+                "x" : [1200, 4500],
+                "y" : [440, 100]
+            }
+        },
+        "enemies":
+        {
+            "taxi":
+            {
+                "amount" : 3,
+                "starting_x" : [1300, 4800, 5200],
+                "starting_y" : [500, 500, 500],
+                "movement_amount" : [15, 15, 15],
+                "movements_speed" : [10, 10, 10],
+                "animation_speed" : [10, 10, 10]
+            },
+            "gang_member":
+            {
+                "amount" : 4,
+                "starting_x" : [3500, 3600, 3700, 3800],
+                "starting_y" : [500, 500, 500, 500],
+                "movement_amount" : [9, 9, 9, 9],
+                "movements_speed" : [70, 70, 70, 70],
+                "animation_speed" : [100, 100, 100, 100],
+                "boss" : [false, false, false, false],
+                "subfolder" : ["GANG MEMBER", "GANG MEMBER", "GANG MEMBER", "GANG MEMBER"]
+            }
+        },
+        "final_battle" :
+        {
+            "jason_voorhees":
+            {
+                "movement_amount" : 1,
+                "movements_speed" : 0,
+                "life" : 500
+            },
+            "boss":
+            {
+                "starting_x" : 100,
+                "starting_y" : 465,
+                "movement_amount" : 9,
+                "movements_speed" : 70,
+                "animation_speed" : 80,
+                "subfolder" : "MICHAEL MYERS"
+            }
+        },
+        "other":
+        {
+            "invisible_rects":
+            {
+                "amount":7,
+                "x_coordinates" : [1300,2800, 3400, 4200, 4600, 5800, 6000]
+            },
+            "bullet":
+            {
+                "folder" : "LEVEL 3"
+            }
+        }
+    }
+}
