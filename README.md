@@ -1,4 +1,7 @@
 # PYGAME PROJECT: PROGRAMACION I (UTN) "FRIDAY THE 13th"
+
+CLICK ON THIS IMAGE DOWN BELOW TO WATCH THE YOUTUBE VIDEO:
+
 [![Alt text](https://img.youtube.com/vi/ol1Prz5O6eI/0.jpg)](https://www.youtube.com/watch?v=ol1Prz5O6eI)
 
 ## Author:
